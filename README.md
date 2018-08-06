@@ -7,6 +7,6 @@ xml_sort.py - File for taking the exported mail rule list from ms-exchange and s
 To use:
 <ul>
   <li>Export your exchange mail flow rules list into "rules/Rules.xml" located in the program directory</li>
-  <li>Place the text file to analyze in "mail/<name.txt>"</li>
+  <li>Place the text file to analyze in "mail/filename.txt"</li>
   <li>Edit the text file name at the bottom of xml_sort.py</li>
   <li>Run xml_sort.py</li>
