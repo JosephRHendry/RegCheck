@@ -1,5 +1,6 @@
 # RegCheck
 Python program to check an xls of regexes against a text file and list what matches matched where<br>
+Primarily to be used for evaluating and tuning Exchange mail flow rules<br>
 
 RegCheck.py - Actual RegEx checking program<br>
 xml_sort.py - File for taking the exported mail rule list from ms-exchange and scraping the regex's into an array<br>
