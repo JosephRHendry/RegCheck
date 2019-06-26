@@ -12,7 +12,7 @@ To use:
 <ul>
   <li>Export your exchange mail flow rules list into "rules/Rules.xml" located in the program directory</li>
     <ul>
-      <li>To export your rules list you can use powershell. First you'll need to install the Exchange Online Remote PowerShell Module. Instruction <a href="https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps>here</a></li>
+      <li>To export your rules list you can use powershell. First you'll need to install the Exchange Online Remote PowerShell Module. Instruction <a href="https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps">here</a></li>
       <li>Once connected, you can export your rules list with the following powershell command: $file = Export-TransportRuleCollection; Set-Content -Path "C:\program_directory\Rules.xml" -Value $file.FileData -Encoding Byte</li></ul>
   <li>Place the text file to analyze in "mail/mail.txt"</li>
   <li>Run xml_sort.py</li>
