@@ -60,9 +60,5 @@ Found on line 7: suspicious email subject. Please use caution before clicking an
 Line :  <span style="color:#9C6500; font-weight:bold;">CAUTION:</span> This email originated from outside of the organization and has a suspicious email subject. Please use caution before clicking any links or following instructions below. Do not sign-in with your<br>
  <br>
 <br>
-List : Quarantine-VipSpoofing<br>
-Match #1 : From<br>
-Found on line 70: From<br>
-Line :  <div id="divRplyFwdMsg" dir="ltr"><font face="Calibri, sans-serif" style="font-size:11pt" color="#000000"><b>From:</b> Muhammad Umer<br><br>
- 
+
 etc. etc.
