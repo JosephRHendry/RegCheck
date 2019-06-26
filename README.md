@@ -27,7 +27,7 @@ xml_sort.py - File for taking the exported mail rule list from ms-exchange and s
 # Sample Output 
 
 XML SORT
-######
+/######
 <br><br>
 
 List #0: Suspicious Patterns<br>
@@ -50,7 +50,7 @@ List #0: Suspicious Patterns<br>
 17  : \.sitey\.me<br>
 18  : \.freetemplate\.site<br>
 etc. etc.<br>
-######
+/######
 
 Reg Check
 List : WarnAudit-PhishingPatterns-Subject<br>
