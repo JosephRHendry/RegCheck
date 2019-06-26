@@ -5,7 +5,7 @@ Primarily to be used for evaluating and tuning Exchange mail flow rules<br>
 # Background
 I created this program after implementing mail flow rules in exchange. These rules are regexes whcih block or flag suspect mail. After implementing this I monitored which items were getting flagged and saw that the rules list was capturing too many false positives. The problem was that there was no indication which of the mail rules has caused a given piece of mail to get flagged, so I created this program to compare the mail that was flagged against the rules list and see specifically which regex matches caused the mail to be flagged so that the regexes could be more finely tuned.
 
-RegCheck.py - Actual RegEx checking program<br>
+RegCheck.py - Used to perform the regex comparisons<br>
 xml_sort.py - File for taking the exported mail rule list from ms-exchange and scraping the regex's into an array<br>
 <br>
 To use:
