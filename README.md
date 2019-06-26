@@ -21,10 +21,11 @@ xml_sort.py - File for taking the exported mail rule list from ms-exchange and s
       <li>Once connected, you can export your rules list with the following powershell command: $file = Export-TransportRuleCollection; Set-Content -Path "C:\program_directory\Rules.xml" -Value $file.FileData -Encoding Byte</li></ul>
   <li>Place the text file to analyze in "mail/mail.txt"</li>
   <li>Run xml_sort.py</li>
-  <li>The program will output a list of all rules followed by the matches and locations</li>
+  <li>The program will output a list of all rules followed by the matches and locations</li></ul>
 
-# Sample Output (Mail rules list originally from @SwiftOnSecurity)
-"C:\Users\JHendry\Dropbox (Connected California)\JH\python\RegCheck\venv\Scripts\python.exe" "C:/Users/JHendry/Dropbox (Connected California)/JH/python/RegCheck/xml_sort.py"
+(Mail rules list originally from @SwiftOnSecurity)
+# Sample Output 
+
 XML SORT
 
 ######
