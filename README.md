@@ -26,7 +26,7 @@ xml_sort.py - File for taking the exported mail rule list from ms-exchange and s
 (Mail rules list originally from @SwiftOnSecurity)
 # Sample Output 
 
-XML SORT
+XML SORT<br>
 /######
 <br><br>
 
