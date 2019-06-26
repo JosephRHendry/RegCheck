@@ -1,5 +1,5 @@
 # RegCheck
-Python program to check an xls of regexes against a text file and list what matches matched where<br>
+Python program to check an xls of regexes against a text file and list which matches matched where<br>
 Primarily to be used for evaluating and tuning Exchange mail flow rules<br>
 
 # Background
