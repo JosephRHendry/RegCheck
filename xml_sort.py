@@ -59,4 +59,4 @@ for i, rule in enumerate(rule_list):
 
 print("\n######\n")
 
-RegCheck(r"mail/you1.txt", complete_list)
+RegCheck(r"mail/mail.txt", complete_list)
