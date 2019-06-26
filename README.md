@@ -3,6 +3,8 @@ Python program to check an xls of regexes against a text file and list which mat
 Primarily to be used for evaluating and tuning Exchange mail flow rules<br>
 
 # Requirements
+Python3
+re
 Beautiful Soup
 
 # Background
